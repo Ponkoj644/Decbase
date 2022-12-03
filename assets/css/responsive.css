@@ -7,14 +7,10 @@
     left: -90px;
   }
   .single-work-two .single-work-text ::before {
-
     width: 90px;
-
     right: -90px;
-
+  }
 }
-}
-
 @media (min-width: 1200px) and (max-width: 1399px) {
   .icon {
     display: none;
@@ -29,6 +25,10 @@
     font-size: 55px;
   }
   /* Service area */
+  .service-area .design {
+    position: absolute;
+    top: -45px;
+}
   .service-area .design img {
     height: 90px;
   }
@@ -666,7 +666,6 @@
     font-weight: 600;
   }
 }
-
 @media (min-width: 0px) and (max-width: 320px) {
   /* Header area */
   .header-area .nav-item {
@@ -705,7 +704,7 @@
     top: 15px;
   }
   .hero-text .theme-btn {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   .design {
     display: none;
@@ -782,7 +781,8 @@
     font-size: 30px;
   }
   .success-area .theme-btn {
-    margin: 25px 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
   .success-img {
     width: 90%;
@@ -836,7 +836,7 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%);
-    animation: updown 5s linear infinite;
+    animation: updown 4s linear infinite;
     animation-direction: alternate;
   }
   @keyframes updown {
@@ -929,8 +929,8 @@
     font-size: 15px;
   }
   .blog-area .theme-btn {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
   }
   /* Signup area */
   .signup-area {
